@@ -1,0 +1,25 @@
+psuedocode notes
+
+Ahmer:
+-implement presence so the application can track when a specific user ran the program last, and compare the last
+recorded bitcoin value (in firebase) with the current value that is being pulled from the API. based on that, it'll make a recommendation to the user to either buy or sell
+-make a timer function that calls the AJAX request every 6 seconds. 
+-have the user input the symbol of the cryptocurrency they want to track
+
+
+
+var userInput = BTC; //received via user input on website
+var cryptocurrencies = [];
+cryptocurrencies.push(userInput)
+
+function isSymbol(element) {
+  return element === userInput;
+}
+
+[BTC].find(isSymbol); // BTC
+
+
+if(symbol == userinput)
+{
+	var CCval = response[cryptocurrencies[0]].price_btc;
+}

@@ -1,0 +1,22 @@
+psuedocode notes
+
+Stephen:
+Formula (V1):
+
+Var pChangeAll = firebase from negativeInfinity until now
+Var pChangeEnter = %change from first site open until now
+function (newTrack) = %change from buy alert confirmed until now
+	(still figuring it out)
+
+If (coinPrice increases by 2% or more in 5 min or less) {
+	Alert (“Buy”);
+		If confirm (“Buy”) {
+			newTrack();
+			display.newTrack info
+				If (coinPrice >= -0.1%) {
+					alert(“Hold”)
+				} else {
+					alert(“Sell”)
+				};
+			};
+		};
